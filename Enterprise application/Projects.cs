@@ -114,5 +114,23 @@ namespace Enterprise_application
         {
             vender_Load();
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+            label7.Text = DateTime.Now.ToLongDateString();
+            timer1.Start();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            label8.Text = DateTime.Now.ToLongDateString();
+            timer1.Start();
+        }
     }
 }

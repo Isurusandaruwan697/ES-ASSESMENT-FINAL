@@ -57,7 +57,7 @@
             this.LOGIN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.LOGIN.BackColor = System.Drawing.Color.DarkOrange;
             this.LOGIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LOGIN.Location = new System.Drawing.Point(241, 452);
+            this.LOGIN.Location = new System.Drawing.Point(234, 454);
             this.LOGIN.Name = "LOGIN";
             this.LOGIN.Padding = new System.Windows.Forms.Padding(3);
             this.LOGIN.Size = new System.Drawing.Size(190, 51);
@@ -81,7 +81,7 @@
             // 
             this.passBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.passBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passBox.Location = new System.Drawing.Point(200, 364);
+            this.passBox.Location = new System.Drawing.Point(200, 358);
             this.passBox.Multiline = true;
             this.passBox.Name = "passBox";
             this.passBox.PasswordChar = '*';
@@ -102,7 +102,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(274, 520);
+            this.linkLabel1.Location = new System.Drawing.Point(275, 522);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(113, 18);
             this.linkLabel1.TabIndex = 11;
@@ -139,7 +139,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.BackColor = System.Drawing.Color.White;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Uighur", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(248, 415);
+            this.checkBox1.Location = new System.Drawing.Point(200, 400);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(123, 31);
             this.checkBox1.TabIndex = 16;

@@ -52,7 +52,7 @@
             this.RoundRectRgn.InnerColor = System.Drawing.Color.White;
             this.RoundRectRgn.InnerMargin = 2;
             this.RoundRectRgn.InnerWidth = -1;
-            this.RoundRectRgn.Location = new System.Drawing.Point(68, 324);
+            this.RoundRectRgn.Location = new System.Drawing.Point(69, 280);
             this.RoundRectRgn.MarqueeAnimationSpeed = 2000;
             this.RoundRectRgn.Name = "RoundRectRgn";
             this.RoundRectRgn.OuterColor = System.Drawing.Color.DimGray;
@@ -79,13 +79,13 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Javanese Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Orange;
-            this.label1.Location = new System.Drawing.Point(32, 218);
+            this.label1.Font = new System.Drawing.Font("Javanese Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(44, 183);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(419, 64);
+            this.label1.Size = new System.Drawing.Size(371, 38);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Inventry Management System";
+            this.label1.Text = "Inventry and Resource Management System";
             // 
             // pictureBox1
             // 
