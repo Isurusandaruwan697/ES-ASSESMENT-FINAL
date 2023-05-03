@@ -48,10 +48,17 @@ namespace Enterprise_application
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            AdminD obj = new AdminD();
+            this.Hide();
+            obj.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

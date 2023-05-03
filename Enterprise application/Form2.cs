@@ -55,7 +55,7 @@ namespace Enterprise_application
             }
             else
             {
-                MessageBox.Show("login error");
+                MessageBox.Show("Wrong User name or Password");
             }
         }
 

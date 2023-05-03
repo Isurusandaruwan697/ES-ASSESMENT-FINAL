@@ -154,6 +154,7 @@
             this.button5.TabIndex = 10;
             this.button5.Text = "DASHBORD";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -177,6 +178,7 @@
             this.button7.TabIndex = 12;
             this.button7.Text = "STOCK";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -200,6 +202,7 @@
             this.button9.TabIndex = 14;
             this.button9.Text = "PROJECTS";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -211,6 +214,7 @@
             this.button10.TabIndex = 15;
             this.button10.Text = "RECORDS";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // panel4
             // 

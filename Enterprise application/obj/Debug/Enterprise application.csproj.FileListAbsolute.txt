@@ -69,3 +69,6 @@ C:\Users\User\Desktop\ES-Assesment\Enterprise application\obj\Debug\Enterprise a
 C:\Users\User\Desktop\ES-Assesment\Enterprise application\obj\Debug\Enterprise application.exe
 C:\Users\User\Desktop\ES-Assesment\Enterprise application\obj\Debug\Enterprise application.pdb
 C:\Users\User\Desktop\ES-Assesment\Enterprise application\obj\Debug\Enterprise_application.Supplyers.resources
+C:\Users\User\Desktop\ES-Assesment\Enterprise application\obj\Debug\Enterprise_application.Projects.resources
+C:\Users\User\Desktop\ES-Assesment\Enterprise application\obj\Debug\Enterprise_application.Records.resources
+C:\Users\User\Desktop\ES-Assesment\Enterprise application\obj\Debug\Enterprise_application.Stock.resources

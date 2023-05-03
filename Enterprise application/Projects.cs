@@ -15,5 +15,17 @@ namespace Enterprise_application
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AdminD obj = new AdminD();
+            this.Hide();
+            obj.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
