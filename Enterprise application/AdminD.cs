@@ -160,6 +160,11 @@ namespace Enterprise_application
             con.Close();
         }
         
+        private void AdminD_Load(object sender, EventArgs e)
+        {
+            vender_Load();
+        }
+        
     }
     
 }
