@@ -125,6 +125,20 @@ namespace Enterprise_application
 
         }
         
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+
+                DataGridViewRow row = this.dataGridView1.Rows[e.RowIndex];
+                textBox1.Text = row.Cells["Id"].Value.ToString();
+                textBox2.Text = row.Cells["username"].Value.ToString();
+                textBox3.Text = row.Cells["password"].Value.ToString();
+                
+
+            }
+        }
+        
         private void button2_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
