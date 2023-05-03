@@ -220,5 +220,12 @@ namespace Enterprise_application
             this.Hide();
             obj.Show();
         }
+        
+      private void button9_Click(object sender, EventArgs e)
+        {
+            Projects obj=new Projects();    
+            this.Hide(); obj.Show();
+            obj.Show();
+        }
     }
 }
