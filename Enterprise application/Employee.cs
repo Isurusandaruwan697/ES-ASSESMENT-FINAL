@@ -227,5 +227,12 @@ namespace Enterprise_application
             this.Hide(); obj.Show();
             obj.Show();
         }
+        
+       private void button10_Click(object sender, EventArgs e)
+        {
+            Records obj=new Records();
+            this.Hide();
+            obj.Show();
+        }
     }
 }
