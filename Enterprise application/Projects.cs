@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Enterprise_application
 {
@@ -26,18 +27,92 @@ namespace Enterprise_application
 
         private void button2_Click(object sender, EventArgs e)
         {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("insert into Stock values (@Id,@name,@location,@start,@end,@cost)", con);
+            cmd.Parameters.AddWithValue("@Id", textBox1.Text);
+            cmd.Parameters.AddWithValue("@name", textBox2.Text);
+            cmd.Parameters.AddWithValue("@location", textBox3.Text);
+            cmd.Parameters.AddWithValue("@start", dateTimePicker1.Value.ToString());
+            cmd.Parameters.AddWithValue("@end", dateTimePicker2.Value.ToString());
+            cmd.Parameters.AddWithValue("@cost", textBox5.Text);
+            
 
+            cmd.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("insert success!");
+            vender_Load();
+        }
+       
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Projects_Load(object sender, EventArgs e)
+        {
+            vender_Load();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick_2(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+
+                DataGridViewRow row = this.dataGridView1.Rows[e.RowIndex];
+                textBox1.Text = row.Cells["Id"].Value.ToString();
+                textBox2.Text = row.Cells["name"].Value.ToString();
+                textBox3.Text = row.Cells["location"].Value.ToString();
+                dateTimePicker1.Text = row.Cells["start"].Value.ToString();
+                dateTimePicker1.Text = row.Cells["end"].Value.ToString();
+
+                textBox5.Text = row.Cells["cost"].Value.ToString();
+
+
+
+
+            }
         }
         private void vender_Load()
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
             con.Open();
-            SqlCommand cmd = new SqlCommand("select * from  Projects", con);
+            SqlCommand cmd = new SqlCommand("select * from  project", con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
             con.Close();
+        }
+
+        private void Projects_Load_1(object sender, EventArgs e)
+        {
+            vender_Load();
         }
     }
 }
