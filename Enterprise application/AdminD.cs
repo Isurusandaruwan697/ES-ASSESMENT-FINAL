@@ -147,5 +147,19 @@ namespace Enterprise_application
 
             MessageBox.Show("Insert Success!");
         }
+        
+        private void vender_Load()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select * from  Tuser", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+            con.Close();
+        }
+        
     }
+    
 }
