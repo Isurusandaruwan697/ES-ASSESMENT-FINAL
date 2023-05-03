@@ -206,5 +206,12 @@ namespace Enterprise_application
             obj.Show();
 
         }
+        
+       private void button7_Click(object sender, EventArgs e)
+        {
+            Stock obj=new Stock();
+            this.Hide();
+            obj.Show();
+        }
     }
 }
