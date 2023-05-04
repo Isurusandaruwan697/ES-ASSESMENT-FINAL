@@ -29,18 +29,20 @@ namespace Enterprise_application
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
             con.Open();
-            SqlCommand cmd = new SqlCommand("insert into Stock values (@Id,@name,@location,@start,@end,@cost)", con);
-            cmd.Parameters.AddWithValue("@Id", textBox1.Text);
-            cmd.Parameters.AddWithValue("@name", textBox2.Text);
-            cmd.Parameters.AddWithValue("@location", textBox3.Text);
-            cmd.Parameters.AddWithValue("@start", dateTimePicker1.Value.ToString());
-            cmd.Parameters.AddWithValue("@end", dateTimePicker2.Value.ToString());
-            cmd.Parameters.AddWithValue("@cost", textBox5.Text);
-            
+           
+            int id = int.Parse(textBox1.Text);
+            string name = textBox2.Text;
+            string location = textBox3.Text;
+            string start = dateTimePicker1.Text;
+            string end = dateTimePicker2.Text;
+            string cost = textBox5.Text;
 
-            cmd.ExecuteNonQuery();
+            string Query = "INSERT INTO project (Id,name,location,start,end,cost)VALUES ('"+id+"','"+name+"','"+start+"','"+cost+"')";
+            SqlCommand cmd = new SqlCommand(Query, con);
+            cmd.ExecuteReader();
             con.Close();
-            MessageBox.Show("insert success!");
+           
+            MessageBox.Show("deleted success!");
             vender_Load();
         }
        
@@ -123,7 +125,7 @@ namespace Enterprise_application
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-            label7.Text = DateTime.Now.ToLongDateString();
+            label8.Text = DateTime.Now.ToLongDateString();
             timer1.Start();
         }
 
