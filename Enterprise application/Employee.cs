@@ -198,11 +198,7 @@ namespace Enterprise_application
         {
 
         }
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> c4bfcb0d039d616153d74091a22317a28a6e5c28
         private void button6_Click(object sender, EventArgs e)
         {
             Supplyers obj = new Supplyers();
@@ -210,31 +206,29 @@ namespace Enterprise_application
             obj.Show();
 
         }
-<<<<<<< HEAD
 
-        private void button7_Click(object sender, EventArgs e)
-=======
+
+     
+
         
        private void button7_Click(object sender, EventArgs e)
->>>>>>> c4bfcb0d039d616153d74091a22317a28a6e5c28
+
         {
             Stock obj=new Stock();
             this.Hide();
             obj.Show();
         }
-<<<<<<< HEAD
 
-        private void button8_Click(object sender, EventArgs e)
-=======
+
+
         
       private void button8_Click(object sender, EventArgs e)
->>>>>>> c4bfcb0d039d616153d74091a22317a28a6e5c28
+
         {
             Employee obj=new Employee();
             this.Hide();
             obj.Show();
         }
-<<<<<<< HEAD
 
         private void button9_Click(object sender, EventArgs e)
         {
@@ -243,18 +237,11 @@ namespace Enterprise_application
             obj.Show();
         }
 
-        private void button10_Click(object sender, EventArgs e)
-=======
+  
         
-      private void button9_Click(object sender, EventArgs e)
-        {
-            Projects obj=new Projects();    
-            this.Hide(); obj.Show();
-            obj.Show();
-        }
+     
         
        private void button10_Click(object sender, EventArgs e)
->>>>>>> c4bfcb0d039d616153d74091a22317a28a6e5c28
         {
             Records obj=new Records();
             this.Hide();

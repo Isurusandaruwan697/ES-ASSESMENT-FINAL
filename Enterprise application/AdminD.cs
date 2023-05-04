@@ -126,11 +126,7 @@ namespace Enterprise_application
         {
 
         }
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> c4bfcb0d039d616153d74091a22317a28a6e5c28
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -144,11 +140,7 @@ namespace Enterprise_application
 
             }
         }
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> c4bfcb0d039d616153d74091a22317a28a6e5c28
         private void button2_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
@@ -171,7 +163,6 @@ namespace Enterprise_application
 
             MessageBox.Show("Insert Success!");
         }
-<<<<<<< HEAD
 
         private void panel5_Paint_1(object sender, PaintEventArgs e)
         {
@@ -182,9 +173,7 @@ namespace Enterprise_application
         {
 
         }
-=======
-        
->>>>>>> c4bfcb0d039d616153d74091a22317a28a6e5c28
+
         private void vender_Load()
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
@@ -196,16 +185,12 @@ namespace Enterprise_application
             dataGridView1.DataSource = dt;
             con.Close();
         }
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> c4bfcb0d039d616153d74091a22317a28a6e5c28
         private void AdminD_Load(object sender, EventArgs e)
         {
             vender_Load();
         }
-<<<<<<< HEAD
+
 
         private void label13_Click(object sender, EventArgs e)
         {
@@ -226,9 +211,7 @@ namespace Enterprise_application
         {
 
         }
-=======
-        
->>>>>>> c4bfcb0d039d616153d74091a22317a28a6e5c28
+
     }
     
 }
