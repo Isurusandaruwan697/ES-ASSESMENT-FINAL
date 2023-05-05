@@ -27,7 +27,9 @@ namespace Enterprise_application
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+         Projects obj = new Projects();
+            this.Hide();
+            obj.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
