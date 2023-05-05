@@ -107,20 +107,14 @@ namespace Enterprise_application
         {
            Application.Exit();
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
             con.Open();
             string name = (textBox5.Text);
 
-            string Query = "SELECT * FROM project  WHERE name='" + name + "'";
-            SqlCommand cmd = new SqlCommand(Query, con);
-            cmd.ExecuteNonQuery();
-            con.Close();
             
-            MessageBox.Show("Reslts avilable!");
-            vender_Load();
 
 
         }
