@@ -194,7 +194,15 @@ namespace Enterprise_application
             cmd.ExecuteNonQuery();
             con.Close();
 
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            
+            textBox5.Text = "";
+           
 
+            MessageBox.Show("update Succesful!");
+            vender_Load();
             
 
             
