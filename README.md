@@ -19,8 +19,9 @@ Further as developing organization, they decided to convert their manual process
 2-Interfacse
 
 *ADMIN SECTION
--Admin Login
 
+-Admin Login
+<img src="IMG/photo_2023-05-04_04-13-42.jpg">
 
 -Dashbord
 
