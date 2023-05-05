@@ -35,9 +35,7 @@ namespace Enterprise_application
         
           private void button10_Click(object sender, EventArgs e)
         {
-            issueditemU se_form = new issueditemU();
-            se_form.Show();
-            this.Hide();
+            
         }
 
         private void label7_Click(object sender, EventArgs e)
