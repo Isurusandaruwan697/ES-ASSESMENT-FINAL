@@ -113,8 +113,12 @@ namespace Enterprise_application
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
             con.Open();
             string name = (textBox5.Text);
-
+            string Query = "SELECT * FROM project  WHERE name='" + name + "'";
+            SqlCommand cmd = new SqlCommand(Query, con);
+            cmd.ExecuteNonQuery();
+            con.Close();
             
+           
 
 
         }
