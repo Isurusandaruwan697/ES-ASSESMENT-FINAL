@@ -63,7 +63,9 @@ namespace Enterprise_application
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //
+            Projects obj =Projects new   ();
+            obj.Hide();
+            obj.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
