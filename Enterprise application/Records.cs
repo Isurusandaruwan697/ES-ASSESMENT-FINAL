@@ -102,5 +102,10 @@ namespace Enterprise_application
         {
             vender_Load();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+           Application.Exit();
+        }
     }
 }
