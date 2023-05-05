@@ -51,7 +51,9 @@ namespace Enterprise_application
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+          Employee obj = new Employee();
+            this.Hide();
+            obj.Show();
         }
 
         private void label6_Click(object sender, EventArgs e)
