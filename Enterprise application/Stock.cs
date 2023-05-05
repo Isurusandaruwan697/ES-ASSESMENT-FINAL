@@ -250,6 +250,10 @@ namespace Enterprise_application
             string name = (textBox6.Text);
             string Query = "SELECT * FROM Stock  WHERE Name='" + name + "'";
             SqlCommand cmd = new SqlCommand(Query, con);
+             cmd.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Reslts avilable!");
+            vender_Load();
            
         }  
     }
