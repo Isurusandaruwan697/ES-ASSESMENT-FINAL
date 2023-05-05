@@ -243,5 +243,14 @@ namespace Enterprise_application
         {
             Application.Exit();
         }
+      private void button11_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
+            con.Open();
+            string name = (textBox6.Text);
+            string Query = "SELECT * FROM Stock  WHERE Name='" + name + "'";
+            SqlCommand cmd = new SqlCommand(Query, con);
+           
+        }  
     }
 }
