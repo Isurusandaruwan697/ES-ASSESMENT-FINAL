@@ -137,27 +137,40 @@ namespace Enterprise_application
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //
+           Supplyers obj = new Supplyers();
+            this.Hide();
+            obj.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            //
+            Stock obj = new Stock();
+            this.Hide();
+            obj.Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            //
+            Employee obj = new Employee();
+            
+            this.Hide();
+            obj.Show();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            //
+            Projects obj =Projects new ();
+
+            this.Hide();
+            obj.Show();
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            //
+            Records obj = new Records();
+
+            this.Hide();
+            obj.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
