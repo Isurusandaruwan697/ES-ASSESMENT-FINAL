@@ -24,7 +24,10 @@ Further as developing organization, they decided to convert their manual process
 
 <img src="IMG/photo_2023-05-04_04-13-42.jpg" height="600" width="1000">
 
--Dashbord
+>Dashbord
+
+<img src="IMG/photo_2023-05-04_13-22-51.jpg" height="600" width="1000">
+
 
 
 -Suppyers
