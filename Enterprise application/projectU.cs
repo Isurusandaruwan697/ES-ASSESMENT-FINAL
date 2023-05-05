@@ -62,5 +62,11 @@ namespace Enterprise_application
         {
 
         }
+        
+         private void timer1_Tick(object sender, EventArgs e)
+        {
+            label7.Text = DateTime.Now.ToLongDateString();
+            timer1.Start();
+        }
     }
 }
