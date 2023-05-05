@@ -1,7 +1,8 @@
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=isurusandaruwan697&label=Profile%20views&color=0e75b6&style=flat" alt="isurusandaruwan697" /> 
+<a href="#"><img alt="views" title="Github views" src="https://komarev.com/ghpvc/?username=isurusandaruwan697&label=Profile%20views&color=0e75b6&style=flat" width="125"/></a>
 [![Welcome](https://img.shields.io/badge/NSBM%20Green%20University-Welcome-brightgreen)](#) 
 [![Welcome](https://img.shields.io/badge/Enterprise%20System-Final%20Project-orange)](#)
+
+<br><br>
 # INTRODUCTION 
 
 NG Construction is established by the Sri Lankan entrepreneurs in 2021. NG construction organization specializes in designing, planning and managing building projects. They involve for medium scale projects development as well.  
