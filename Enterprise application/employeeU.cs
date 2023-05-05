@@ -39,6 +39,14 @@ namespace Enterprise_application
             se_form.Show();
             this.Hide();
         }
+        
+        
+        private void button9_Click(object sender, EventArgs e)
+        {
+            projectU se_form = new projectU();
+            se_form.Show();
+            this.Hide();
+        }
 
         private void label7_Click(object sender, EventArgs e)
         {
