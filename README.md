@@ -2,7 +2,7 @@
 [![Welcome](https://img.shields.io/badge/NSBM%20Green%20University-Welcome-brightgreen)](#) 
 [![Welcome](https://img.shields.io/badge/Enterprise%20System-Final%20Project-orange)](#)
 
-<br><br>
+<br>
 # INTRODUCTION 
 
 NG Construction is established by the Sri Lankan entrepreneurs in 2021. NG construction organization specializes in designing, planning and managing building projects. They involve for medium scale projects development as well.  
