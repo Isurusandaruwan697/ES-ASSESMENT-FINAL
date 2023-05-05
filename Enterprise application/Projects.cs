@@ -137,12 +137,14 @@ namespace Enterprise_application
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //
+           Supplyers obj = new Supplyers();
+            this.Hide();
+            obj.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            //
+            
         }
 
         private void button8_Click(object sender, EventArgs e)
