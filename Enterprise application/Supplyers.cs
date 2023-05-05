@@ -188,7 +188,9 @@ namespace Enterprise_application
 
         private void button8_Click(object sender, EventArgs e)
         {
-            //
+            Employee obj = new Employee();
+            obj.Hide();
+            obj.Show();
         }
 
         private void button9_Click(object sender, EventArgs e)
