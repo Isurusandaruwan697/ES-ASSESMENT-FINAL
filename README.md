@@ -22,7 +22,7 @@ Further as developing organization, they decided to convert their manual process
 
 >Admin Login
 
-<img src="IMG/photo_2023-05-04_04-13-42.jpg" height="400" width="800">
+<img src="IMG/photo_2023-05-04_04-13-42.jpg" height="600" width="1000">
 
 -Dashbord
 
