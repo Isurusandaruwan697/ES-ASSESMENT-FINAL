@@ -117,6 +117,8 @@ namespace Enterprise_application
             SqlCommand cmd = new SqlCommand(Query, con);
             cmd.ExecuteNonQuery();
             con.Close();
+             MessageBox.Show("Reslts avilable!");
+            vender_Load();
             
            
 
