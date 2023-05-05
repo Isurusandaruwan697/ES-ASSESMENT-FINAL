@@ -19,8 +19,10 @@ namespace Enterprise_application
 
         private void issueditemU_Load(object sender, EventArgs e)
         {
-
+            vender_Load();
         }
+
+       
 
         private void button2_Click(object sender, EventArgs e)
         {
