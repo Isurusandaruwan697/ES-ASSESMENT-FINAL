@@ -53,7 +53,9 @@ namespace Enterprise_application
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //
+            Supplyers obj=new Supplyers();
+            obj.Hide();
+            obj.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
