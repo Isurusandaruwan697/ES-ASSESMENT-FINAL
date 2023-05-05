@@ -11,4 +11,53 @@ When we consider NG Construction, it consists of more than 50+ employees includi
 
 Further as developing organization, they decided to convert their manual process into the systemized for optimize their workload and come up with the best out of best from the organization. So as a group, we identified the organization current process and environment, then we created the this system by including the new features which make easy their day-to-day work task instead of proceeding it manually. 
 
+1- Required software:
+* Visuel Studio
+* .Net Framework 4.8 
+* XAMPP or Wamp (optional)
+* Windows Support OS
 
+2-Interfacse
+
+*ADMIN SECTION
+-Admin Login
+
+
+-Dashbord
+
+
+-Suppyers
+
+
+-Stock
+
+
+-Employee
+
+
+-Projects
+
+
+-History Records
+
+
+*USER SECTION
+-User Login
+
+
+-Dashbord
+
+
+-Supplyers
+
+
+-Stock
+
+
+-Employee
+
+
+-Projects
+
+
+-Issued Items
