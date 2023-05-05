@@ -167,7 +167,10 @@ namespace Enterprise_application
 
         private void button10_Click(object sender, EventArgs e)
         {
-            //
+            Records obj = new Records();
+
+            this.Hide();
+            obj.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
