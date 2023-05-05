@@ -58,7 +58,9 @@ namespace Enterprise_application
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //
+            Stock obj=new Stock();
+            obj.Hide();
+            obj.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
