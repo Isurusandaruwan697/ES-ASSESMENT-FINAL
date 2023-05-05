@@ -189,7 +189,13 @@ namespace Enterprise_application
             string cost = textBox5.Text;
 
             
+            string Query = "UPDATE project SET name='" + name + "',location='" + location + "', start='" + start + "',end='" + end + "',location='" + location + "' WHERE Id='" + id + "' ";
+            SqlCommand cmd = new SqlCommand(Query, con);
+            cmd.ExecuteNonQuery();
+            con.Close();
 
+
+            
 
             
         }
