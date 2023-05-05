@@ -18,50 +18,67 @@ Further as developing organization, they decided to convert their manual process
 
 2-Interfacse
 
+>Lording
+<img src="IMG/loading pageee.jpg" height="500" width="1000">
+
 *ADMIN SECTION
 
 >Admin Login
 
-<img src="IMG/photo_2023-05-04_04-13-42.jpg" height="600" width="1000">
+<img src="IMG/admin login.jpg" height="500" width="1000">
 
 >Dashbord
 
-<img src="IMG/photo_2023-05-04_13-22-51.jpg" height="600" width="1000">
+<img src="IMG/photo_2023-05-04_13-22-51.jpg" height="500" width="1000">
 
+>Suppyers
 
+<img src="IMG/photo_2023-05-04_04-13-24.jpg" height="500" width="1000">
 
--Suppyers
+>Stock
 
+<img src="IMG/photo_2023-05-04_04-13-26.jpg" height="500" width="1000">
 
--Stock
+>Employee
 
+<img src="IMG/photo_2023-05-04_04-13-28.jpg" height="500" width="1000">
 
--Employee
+>Projects
 
+<img src="IMG/photo_2023-05-04_13-22-55.jpg" height="500" width="1000">
 
--Projects
+>History Records
 
-
--History Records
+<img src="IMG/photo_2023-05-04_13-22-59.jpg" height="500" width="1000">
 
 
 *USER SECTION
--User Login
 
 
--Dashbord
+>User Login
 
+<img src="IMG/photo_2023-05-04_04-13-52.jpg" height="500" width="1000">
 
--Supplyers
+>Dashbord
 
+<img src="IMG/photo_2023-05-04_21-27-04.jpg" height="500" width="1000">
 
--Stock
+>Supplyers
 
+<img src="IMG/photo_2023-05-04_21-26-55 (2).jpg" height="500" width="1000">
 
--Employee
+>Stock
 
+<img src="photo_2023-05-04_21-27-13.jpg" height="500" width="1000">
 
--Projects
+>Employee
 
+<img src="IMG/Screenshot 2023-05-05 000740.png" height="500" width="1000">
 
--Issued Items
+>Projects
+
+<img src="IMG/Screenshot 2023-05-05 000625.png" height="500" width="1000">
+
+>Issued Items
+
+<img src="IMG/Screenshot 2023-05-05 001009.png" height="500" width="1000">
