@@ -11,6 +11,8 @@ using System.Windows.Forms;
 namespace Enterprise_application
 {
     public partial class projectU : Form
+        
+                SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
 
 
     {
