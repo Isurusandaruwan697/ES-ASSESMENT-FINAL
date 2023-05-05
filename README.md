@@ -1,3 +1,5 @@
+# <img src="Project Content/APictures-cover.png" height="200" width="900" > 
+
 <a href="#"><img alt="views" title="Github views" src="https://komarev.com/ghpvc/?username=isurusandaruwan697&label=Profile%20views&color=0e75b6&style=flat" width="125"/></a>
 [![Welcome](https://img.shields.io/badge/NSBM%20Green%20University-Welcome-brightgreen)](#) 
 [![Welcome](https://img.shields.io/badge/Enterprise%20System-Final%20Project-orange)](#)
@@ -25,31 +27,31 @@ Further as developing organization, they decided to convert their manual process
 
 >Admin Login
 
-<img src="IMG/admin login.jpg" height="500" width="1000">
+<img src="IMG/admin login.jpg" height="400" width="900">
 
 >Dashbord
 
-<img src="IMG/photo_2023-05-04_13-22-51.jpg" height="500" width="1000">
+<img src="IMG/photo_2023-05-04_13-22-51.jpg" height="400" width="900">
 
 >Suppyers
 
-<img src="IMG/photo_2023-05-04_04-13-24.jpg" height="500" width="1000">
+<img src="IMG/photo_2023-05-04_04-13-24.jpg" height="400" width="900">
 
 >Stock
 
-<img src="IMG/photo_2023-05-04_04-13-26.jpg" height="500" width="1000">
+<img src="IMG/photo_2023-05-04_04-13-26.jpg" height="400" width="900">
 
 >Employee
 
-<img src="IMG/photo_2023-05-04_04-13-28.jpg" height="500" width="1000">
+<img src="IMG/photo_2023-05-04_04-13-28.jpg" height="400" width="900">
 
 >Projects
 
-<img src="IMG/photo_2023-05-04_13-22-55.jpg" height="500" width="1000">
+<img src="IMG/photo_2023-05-04_13-22-55.jpg" height="400" width="900">
 
 >History Records
 
-<img src="IMG/photo_2023-05-04_13-22-59.jpg" height="500" width="1000">
+<img src="IMG/photo_2023-05-04_13-22-59.jpg" height="400" width="900">
 
 
 *USER SECTION
@@ -57,28 +59,28 @@ Further as developing organization, they decided to convert their manual process
 
 >User Login
 
-<img src="IMG/photo_2023-05-04_04-13-52.jpg" height="500" width="1000">
+<img src="IMG/photo_2023-05-04_04-13-52.jpg" height="400" width="900">
 
 >Dashbord
 
-<img src="IMG/photo_2023-05-04_21-27-04.jpg" height="500" width="1000">
+<img src="IMG/photo_2023-05-04_21-27-04.jpg" height="400" width="900">
 
 >Supplyers
 
-<img src="IMG/photo_2023-05-04_21-26-55 (2).jpg" height="500" width="1000">
+<img src="IMG/photo_2023-05-04_21-26-55 (2).jpg" height="400" width="900">
 
 >Stock
 
-<img src="photo_2023-05-04_21-27-13.jpg" height="500" width="1000">
+<img src="IMG/stock.jpg" height="400" width="900">
 
 >Employee
 
-<img src="IMG/Screenshot 2023-05-05 000740.png" height="500" width="1000">
+<img src="IMG/Screenshot 2023-05-05 000740.png" height="400" width="900">
 
 >Projects
 
-<img src="IMG/Screenshot 2023-05-05 000625.png" height="500" width="1000">
+<img src="IMG/Screenshot 2023-05-05 000625.png" height="400" width="900">
 
 >Issued Items
 
-<img src="IMG/Screenshot 2023-05-05 001009.png" height="500" width="1000">
+<img src="IMG/Screenshot 2023-05-05 001009.png" height="400" width="900">
