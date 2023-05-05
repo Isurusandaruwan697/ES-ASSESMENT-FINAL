@@ -20,8 +20,9 @@ Further as developing organization, they decided to convert their manual process
 
 *ADMIN SECTION
 
--Admin Login
-<img src="IMG/photo_2023-05-04_04-13-42.jpg">
+>Admin Login
+
+<img src="IMG/photo_2023-05-04_04-13-42.jpg" height="400" width="400">
 
 -Dashbord
 
