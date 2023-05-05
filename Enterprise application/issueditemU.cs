@@ -99,7 +99,9 @@ namespace Enterprise_application
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            projectU se_form = new projectU();
+            se_form.Show();
+            this.Hide();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
