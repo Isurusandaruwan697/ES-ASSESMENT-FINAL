@@ -6,11 +6,14 @@
 
 # INTRODUCTION 
 
-NG Construction is established by the Sri Lankan entrepreneurs in 2021. NG construction organization specializes in designing, planning and managing building projects. They involve for medium scale projects development as well.  
+NG Construction is a company established in 2021 by Sri Lankan entrepreneurs, specializing in designing, planning, and managing building projects of various sizes. Their team comprises over 50 employees, including permanent and contract-based staff, such as architects, project managers, constructors, technical experts, and workers. The organization's ultimate goal is to ensure project success by prioritizing safety, efficiency, and high-quality standards. They strive to deliver better quality projects to the world and achieve customer satisfaction.
 
-When we consider NG Construction, it consists of more than 50+ employees including permanent and contract basis employees. Such as Architects, project managers, constructors, technical expertise, workers etc. Throughout the organization the final objective is to ensure the project success by having safety, efficiently ang high quality. Finally, they expect customer satisfaction by providing better quality projects to the world.
+As a developing organization, NG Construction has decided to optimize its workload and streamline its processes by converting their manual process into a systemized one. To achieve this goal, the team has evaluated the current processes and environment and created a new system with additional features to simplify their day-to-day tasks. The new system will replace the manual process and enable the team to complete their tasks with ease and accuracy.
 
-Further as developing organization, they decided to convert their manual process into the systemized for optimize their workload and come up with the best out of best from the organization. So as a group, we identified the organization current process and environment, then we created the this system by including the new features which make easy their day-to-day work task instead of proceeding it manually. 
+
+
+
+ 
 
 1- Required software:
 * Visuel Studio
