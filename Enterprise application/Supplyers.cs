@@ -195,7 +195,9 @@ namespace Enterprise_application
 
         private void button9_Click(object sender, EventArgs e)
         {
-            //
+            Projects obj =Projects new   ();
+            obj.Hide();
+            obj.Show();
         }
 
         private void button10_Click(object sender, EventArgs e)
