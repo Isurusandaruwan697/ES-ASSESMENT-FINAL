@@ -37,7 +37,9 @@ namespace Enterprise_application
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+            mployeeU se_form = new employeeU();
+            se_form.Show();
+            this.Hide();
         }
 
         private void button9_Click(object sender, EventArgs e)
