@@ -54,5 +54,10 @@ namespace Enterprise_application
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
