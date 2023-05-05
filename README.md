@@ -1,4 +1,4 @@
-# <img src="Project Content/APictures-cover.png" height="200" width="900" > 
+# <img src="IMG/banner.jpg" height="200" width="900" > 
 
 <a href="#"><img alt="views" title="Github views" src="https://komarev.com/ghpvc/?username=isurusandaruwan697&label=Profile%20views&color=0e75b6&style=flat" width="125"/></a>
 [![Welcome](https://img.shields.io/badge/NSBM%20Green%20University-Welcome-brightgreen)](#) 
@@ -21,7 +21,7 @@ Further as developing organization, they decided to convert their manual process
 2-Interfacse
 
 >Lording
-<img src="IMG/loading pageee.jpg" height="500" width="1000">
+<img src="IMG/loading pageee.jpg" height="400" width="900">
 
 *ADMIN SECTION
 
