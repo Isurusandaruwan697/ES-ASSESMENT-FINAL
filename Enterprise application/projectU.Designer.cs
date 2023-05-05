@@ -274,6 +274,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "projectU";
             this.Text = "projectU";
+            this.Load += new System.EventHandler(this.projectU_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
